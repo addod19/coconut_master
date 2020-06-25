@@ -1,8 +1,5 @@
 import React from 'react'  
-// import { Link, useLocation } from 'react-router-dom';
-// import { MyNavItems, MyNavLink } from 'carbon-components-react/lib/components/UIShell';
 
-// import StyledMyNav from './Style';
 import './NavStyle.css';
 import {
     BrowserRouter as Router,
