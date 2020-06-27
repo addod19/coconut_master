@@ -10,7 +10,6 @@ import {
 import Register from '../Layout/Register';
 import About from '../Layout/About';
 import Home from '../Layout/Home';
-import Main from '../Main/Main';
 import  CoconutSVG from '../../Images/coconut.svg'
 
 

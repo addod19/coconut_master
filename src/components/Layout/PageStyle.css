@@ -1,0 +1,10 @@
+.advert {
+    height: 20em;
+    width: 100%;
+    background: black;
+    color: lawngreen;
+    text-align: center;
+}
+h2 {
+    margin: auto;
+}

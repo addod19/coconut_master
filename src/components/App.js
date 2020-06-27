@@ -2,12 +2,11 @@ import React from 'react';
 
 
 import Navigation from '../components/Nav/Nav';
-// import Main from '../components/Main/Main';
 import Footer from '../components/Footer/Footer';
 
 const App = () => {
   return (
-    <div className="Container App">
+    <div className="App">
       <Navigation />
       <Footer />
     </div>
