@@ -1,11 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
 * {
     margin: 0;
     padding: 0;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Kaushan Script', cursive;
     color: #fff;
 }
-
+:root {
+    --primaryColor: white;
+    --secColor: green;
+}
 .screenW {
     width: 100vw;
 }
@@ -99,4 +102,49 @@
     height: 10px;
     border-radius: 5px;
     transition: background-color 1s ease-in-out;
+}
+h2 {
+    color: green;
+    margin-top: 3em;
+}
+.w-100 {
+    width: 100%;
+}
+.content {
+    /* min-height: calc(100vh - 66px); */
+    height: 80%;
+    margin-bottom: 10em;
+}
+.reg {
+    background: black;
+    height: 35em;
+}
+.regContainer {
+    height: 70%;
+    border: 1px dotted blue;
+}
+.side {
+    background: url('../../Images/img1.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+h2 {
+    color: white;
+}
+.other {
+    height: 100%;
+    width: 100%;
+    background: green;
+}
+a {
+    color: var(--primaryColor);
+    padding: 3em;
+}
+.two {
+    border: 1px solid green;
+}
+.five {
+    border: 1px solid brown;
 }

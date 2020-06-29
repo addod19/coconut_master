@@ -1,12 +1,12 @@
 import React from 'react';
 
-import  slide1 from '../../Images/coconut.svg';
+import  slide1 from '../../Images/img4.jpg';
 import  slide2 from '../../Images/coco6.jpg';
-import  slide3 from '../../Images/coco9.png';
-import  slide4 from '../../Images/coco1.jpg';
-import  slide5 from '../../Images/coco5.jpg';
+import  slide3 from '../../Images/coco1.jpg';
+import  slide4 from '../../Images/img.jpg';
+import  slide5 from '../../Images/img3.jpg';
 
-import  Coconut1 from '../../Images/coconut.svg';
+import  Coconut1 from '../../Images/coco02.jpg';
 import  Coconut2 from '../../Images/coco6.jpg';
 import  Coconut3 from '../../Images/coco9.png';
 import  Coconut4 from '../../Images/coco1.jpg';
@@ -28,16 +28,16 @@ const slides = [slide1, slide2, slide3, slide4, slide5];
 
 const Home = () => {
     return(
-        <div className="container-fluid">
+        <div className="container-fluid mt-3">
             <div className="row">
                 <div className="col-sm-12 advert">
-                <div className={s.container}>
-                <div className={s.header}>Coconut Master</div>
-                <div className={s.main}>
-                    <Slideshow slides={slides} />
-                </div>
-                <div className={s.footer}>Built with React - Daniel</div>
-            </div>
+                    <div className={s.container}>
+                        <div className={s.header}>Coconut Master</div>
+                        <div className={s.main}>
+                            <Slideshow slides={slides} />
+                        </div>
+                        <div className={s.footer}></div>
+                    </div>
                 </div>
             </div>
             <div className="row">

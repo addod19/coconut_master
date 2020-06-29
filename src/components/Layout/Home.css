@@ -6,6 +6,7 @@
 .advert {
     height: 25em;
     margin: auto;
+    margin-top: 5em;
 }
 
 .main {
@@ -16,13 +17,6 @@
     color: green;
 }
 
-/* .wdt{  
-    width: 100%  !important; 
-}  
-.img  
-{  
-    height: 300px !important;  
-} */
 .wdt{    
     width: 90% !important;    
 }    
@@ -46,9 +40,7 @@
     padding-left: 50px !important;    
     padding-right: 50px !important;    
     
-}    
-.cls    
-{    
-    padding-right: 300px !important;    
-    background-color: blue    
-}    
+}
+.mt-3 {
+    margin-top: 3em;
+}
