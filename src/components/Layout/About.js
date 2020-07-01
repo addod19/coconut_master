@@ -11,6 +11,7 @@ const About = () => {
                   <div className="content row">
                     <div className="col-md-4 side"></div>
                     <div className="col-md-8 other text-center">
+                      <div className="banner">
                       <h2>Coconut First. Schemes Later</h2>
                       <p>we offer qualtiy and fresh cocnut fruit</p>
                       <h3>Enjoy a fresh coconut water, it is coconut o'clock</h3><hr></hr>
@@ -19,6 +20,7 @@ const About = () => {
                       </h4>
                       <a href="https://web.facebook.com/abigail.larbi" target="_blank" rel="noopener noreferrer">Facebook</a>
                       <a href="https://www.instagram.com/kenteport/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                      </div>
                     </div>
                   </div>
               </div>

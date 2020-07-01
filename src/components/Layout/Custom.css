@@ -136,7 +136,10 @@ h2 {
 .other {
     height: 100%;
     width: 100%;
-    background: green;
+    background: url('../../Images/coco.jpeg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 a {
     color: var(--primaryColor);
